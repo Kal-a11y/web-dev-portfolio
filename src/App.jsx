@@ -1,12 +1,11 @@
 import { useState } from 'react'
-// import './App.css'
+import Header from './components/Header'
+import './App.css'
 
-function App() {
-
-  return (
-      <h1>Hello world</h1>
-  
-  )
-}
-
-export default App
+  export default function App() {
+    return (
+      <body>
+        <Header />
+      </body>
+    );
+  }
