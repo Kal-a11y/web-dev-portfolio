@@ -1,12 +1,14 @@
-import { useState } from 'react'
-// import './App.css'
+import Project from './components/Project'
+import projectData from './assets/projectList'
 
-function App() {
+export default function App() {
+  const myTest = projectData;
 
   return (
-      <h1>Hello world</h1>
-  
+      <div>
+        {myTest.map(item => <Project {...item} key={myTest.indexOf(item)}/>)}
+        
+      </div>
+    
   )
 }
-
-export default App
