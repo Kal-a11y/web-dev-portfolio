@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
