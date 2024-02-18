@@ -7,14 +7,14 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Kaila Anderson</Navbar.Brand>
+        <Navbar.Brand ></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/home">About me</Nav.Link>
-            <Nav.Link href="/porfolio">Portfolio</Nav.Link>
-            <Nav.Link href="/contact">Contact me</Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
+            <Nav.Link href="/">About me</Nav.Link>
+            <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="/Contact">Contact me</Nav.Link>
+            <Nav.Link href="/Resume">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

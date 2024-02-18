@@ -1,16 +1,15 @@
 import Header from './components/Header'
-import Project from './components/Project'
 import Footer from './components/Footer'
-import projectData from './assets/projectList'
-import './App.css'
+import { Outlet } from 'react-router-dom';
 
 export default function App() {
-  const myTest = projectData;
   return (
-    <div>
+    <>
       <Header />
-      {myTest.map(item => <Project {...item} key={myTest.indexOf(item)} />)}
+      <main className="mx-3">
+        <Outlet />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
