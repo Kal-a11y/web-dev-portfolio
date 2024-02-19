@@ -1,4 +1,5 @@
 import Nav from './Nav';
+import '../assets/styles/Nav.css'
 
 export default function Header() {
     return (
