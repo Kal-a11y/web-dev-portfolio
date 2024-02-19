@@ -1,0 +1,9 @@
+.active{
+    box-shadow: 1px 1px 5px black !important;
+}
+.navbar{
+    background-color: #3b02ac;
+}
+a{
+    color: white !important;
+}
