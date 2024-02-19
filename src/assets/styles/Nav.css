@@ -1,0 +1,23 @@
+.active{
+    box-shadow: 1px 1px 5px black !important;
+}
+nav{
+    background-color: #3b02ac;
+    position: absolute;
+    bottom: -20px;
+    z-index: 2;
+}
+a{
+    color: white !important;
+}
+header{
+    background-image: url(./bg-header.jpg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+header h1{
+    margin: 5px;
+    padding-top: 5px;
+}
