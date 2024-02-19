@@ -3,6 +3,10 @@ body{
     color: rgb(255, 234, 218);
 }
 img{
-    width:275px;
+    width:100%;
+    max-width: 275px !important;
     border-radius: 50%;
+}
+.text-col{
+    width: 275px ;
 }
