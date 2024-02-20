@@ -8,7 +8,7 @@ export default function About() {
     return (
         <Container className='m-auto'>
             <Row>
-                <Col xs={9} md={3} className='col-md-3 m-auto'>
+                <Col xs={9} md={3} className='col-md-3 m-auto profile-img'>
                     <Image src='https://media.licdn.com/dms/image/D5603AQECq_SkbQzCUw/profile-displayphoto-shrink_800_800/0/1694642158732?e=1714003200&v=beta&t=HuefqxL3N5M84HWgpGeCBZYl5iPIAypbiJK162QuJ2U' />
                 </Col>
                 <Col className='m-auto text-col'>
