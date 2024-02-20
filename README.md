@@ -30,8 +30,9 @@
 
   Navigate though the tabs to view different sections about me and my work. On the portfolio page click the title to view the deployed page and the button to view the repository
 
-  ![Example of page]()
-  ![Example of page 2]()
+![Example of page](./readme-assets/image.png)
+
+![Example of page 2](./readme-assets/image-1.png)
 
   ## License
 
