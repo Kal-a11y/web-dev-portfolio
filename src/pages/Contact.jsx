@@ -40,17 +40,17 @@ export default function Contact() {
         <Form>
             <Form.Group className="mb-3" controlId="contactFormName">
                 <Form.Label>Name</Form.Label>
-                <Form.Control required type="text" placeholder="Mary Sue" onBlur={handleBlankInput} onChange={handleValidInput} />
+                <Form.Control required type="text" placeholder="Mary Sue..." onBlur={handleBlankInput} onChange={handleValidInput} />
                 <p className='text-danger visually-hidden'>* Field required</p>
             </Form.Group>
             <Form.Group className="mb-3" controlId="contactFormEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control required type="email" placeholder="name@example.com" onBlur={handleBlankInput} onChange={handleValidInput} />
+                <Form.Control required type="email" placeholder="name@example.com..." onBlur={handleBlankInput} onChange={handleValidInput} />
                 <p className='text-danger visually-hidden'>* Field required</p>
             </Form.Group>
             <Form.Group className="mb-3" controlId="contactFormMessage">
                 <Form.Label>Message</Form.Label>
-                <Form.Control required as="textarea" rows={3} onBlur={handleBlankInput} onChange={handleValidInput} />
+                <Form.Control required as="textarea" rows={3} placeholder="We would love to hire you..." onBlur={handleBlankInput} onChange={handleValidInput} />
                 <p className='text-danger visually-hidden'>* Field required</p>
             </Form.Group>
             <Button variant="primary" type="submit">
